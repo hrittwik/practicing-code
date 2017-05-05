@@ -1,0 +1,15 @@
+<script type="text/javascript">
+    function box(){
+
+        var stuff = "The Stuff";
+
+        return function getStuffAndTheReturnIt(){
+            alert(stuff);
+        }
+    }
+
+    var getStuffOutOfTheBox = box();
+
+    getStuffOutOfTheBox();
+
+</script>
